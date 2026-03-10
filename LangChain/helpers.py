@@ -1,0 +1,5 @@
+def display_graph(graph):
+    """Display a compiled graph (LangGraph)"""
+    from IPython.display import Image, display
+    display(Image(graph.get_graph().draw_mermaid_png()))
+
